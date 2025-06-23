@@ -1,10 +1,7 @@
 package org.example;
 
 import io.javalin.Javalin;
-import org.example.controller.HelloController;
-import org.example.controller.StatusController;
-import org.example.controller.EchoController;
-import org.example.controller.SaudacaoController;
+import org.example.controllers.*;
 
 public class Main {
     public static void main(String[] args) {
@@ -14,5 +11,6 @@ public class Main {
         StatusController.routes(app);
         EchoController.routes(app);
         SaudacaoController.routes(app);
+        UsuarioController.routes(app);
     }
 }

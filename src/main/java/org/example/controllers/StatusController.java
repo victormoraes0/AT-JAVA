@@ -1,4 +1,4 @@
-package org.example.controller;
+package org.example.controllers;
 
 import io.javalin.Javalin;
 import java.time.Instant;
